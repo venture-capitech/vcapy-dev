@@ -1,1 +1,3 @@
-# VCapy-landing-page
+# vcapy shop
+
+www.vcapy.com
