@@ -7,4 +7,7 @@ instagram_handle: "@vcapy"
 collections:
   products:
     output: true
-    permalink: /products/:name/
+    permalink: /shop/products/:name/
+  productlines:
+    output: true
+    permalink: /shop/productlines/:name/
