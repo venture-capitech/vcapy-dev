@@ -1,5 +1,5 @@
 ---
-layout: productline
+layout: default
 title: 2025 Winter
 ---
 

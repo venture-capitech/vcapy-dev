@@ -28,6 +28,21 @@ layout: default
   </div>
 </div>
 
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">{{ page.featured_section_title }}</h2>
+  <div class="row g-4">
+    {% for product_id in page.featured_productlines %}
+      {% assign product = site.products | where: "slug", product_id | first %}
+      {% if product %}
+        <div class="col-lg-4 col-md-6">
+          {% include product-card.md product=product %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 <div class="container my-5">
   <div class="row justify-content-center">
     <div class="col-lg-8">
@@ -38,16 +53,3 @@ layout: default
     </div>
   </div>
 </div>
-
-{% if page.show_testimonials %}
-<div class="container my-5">
-  <h2 class="text-center mb-4">{{ page.testimonials_title }}</h2>
-  <div class="row g-4">
-    {% for testimonial in site.data.testimonials limit:page.testimonials_count %}
-      <div class="col-lg-4 col-md-6">
-        {% include testimonial-card.md testimonial=testimonial %}
-      </div>
-    {% endfor %}
-  </div>
-</div>
-{% endif %}

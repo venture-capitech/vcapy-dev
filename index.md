@@ -11,6 +11,8 @@ featured_products:
   - moon-lamp
   - desk-organizer
   - phone-stand
+featured_productlines:
+  - 2025-Winter
 
 about_title: about vcapy
 ---
