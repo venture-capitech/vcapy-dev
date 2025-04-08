@@ -1,4 +1,5 @@
 <!-- _includes/product-card.html -->
+
 <div class="product-card">
     <a href="{{ product.url | relative_url }}">
       {% if product.images.size > 0 %}

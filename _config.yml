@@ -5,6 +5,7 @@ contact_email: contact@vcapy.com
 instagram_handle: "@vcapy"
 
 collections:
-  products:
-    output: true
-    permalink: /products/:name/
+  shop:
+    products:
+      output: true
+      permalink: /products/:name/
