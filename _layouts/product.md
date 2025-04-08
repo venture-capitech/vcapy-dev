@@ -1,4 +1,3 @@
-<!-- _layouts/product.html -->
 ---
 layout: default
 ---

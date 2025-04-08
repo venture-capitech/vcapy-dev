@@ -1,4 +1,3 @@
-<!-- _layouts/home.html -->
 ---
 layout: default
 ---

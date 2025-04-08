@@ -1,4 +1,3 @@
-<!-- _includes/navigation.html -->
 <nav>
     <div><strong>{{ site.title }}</strong></div>
     <div>

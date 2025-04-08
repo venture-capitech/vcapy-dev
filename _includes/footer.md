@@ -1,5 +1,5 @@
-<!-- _includes/footer.md -->
----
+
+<hr>
 
 © 2025 vcapy. All rights reserved.
 
