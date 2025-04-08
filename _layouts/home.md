@@ -17,7 +17,7 @@ layout: default
     {% for product_id in page.featured_products %}
       {% assign product = site.products | where: "slug", product_id | first %}
       {% if product %}
-        {% include product-card.html product=product %}
+        {% include product-card.md product=product %}
       {% endif %}
     {% endfor %}
   </div>
@@ -35,7 +35,7 @@ layout: default
   <h2>{{ page.testimonials_title }}</h2>
   <div class="testimonials-grid">
     {% for testimonial in site.data.testimonials limit:page.testimonials_count %}
-      {% include testimonial-card.html testimonial=testimonial %}
+      {% include testimonial-card.md testimonial=testimonial %}
     {% endfor %}
   </div>
 </div>
