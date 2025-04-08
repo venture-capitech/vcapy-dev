@@ -28,7 +28,6 @@ layout: default
   </div>
 </div>
 
-
 <div class="container my-5">
   <h2 class="text-center mb-4">{{ page.featured_section_title }}</h2>
   <div class="row g-4">
