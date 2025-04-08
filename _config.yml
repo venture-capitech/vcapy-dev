@@ -1,0 +1,10 @@
+# _config.yml
+title: vcapy
+description: goods not found elsewhere
+contact_email: contact@vcapy.com
+instagram_handle: "@vcapy"
+
+collections:
+  products:
+    output: true
+    permalink: /products/:name/

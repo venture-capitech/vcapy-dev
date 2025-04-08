@@ -1,0 +1,73 @@
+/* assets/css/product-style.css */
+.product-detail-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.product-images-carousel {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.product-details-list {
+    margin: 20px 0;
+}
+
+.product-ratings {
+    margin: 20px 0;
+}
+
+.how-to-get {
+    margin: 20px 0;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.add-to-cart-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.parcel-delivery-info {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-details-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Slick carousel customization */
+.slick-dots {
+    bottom: -30px;
+}

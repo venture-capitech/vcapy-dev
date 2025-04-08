@@ -1,0 +1,7 @@
+# _data/navigation.yml
+- title: Home
+  url: /
+- title: Shop All
+  url: /shop/
+- title: Contact
+  url: /contact/
